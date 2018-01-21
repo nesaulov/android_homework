@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="question_go">
+        Я живу в Санкт-Петербурге
+    </string>
+    <string name="yes_button">Да</string>
+    <string name="no_button">Нет</string>
+    <string name="correct_answer">Правильно!</string>
+    <string name="incorrect_answer">Неправильно!</string>
+    <string name="action_settings">Настройки</string>
+</resources>
