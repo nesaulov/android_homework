@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/button_fragment"
+        android:name="ru.esaulov.fragment.ButtonFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/button_fragment" />
+
+    <fragment
+        android:name="ru.esaulov.fragment.CheckBoxFragment"
+        android:id="@+id/checkbox_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/checkbox_fragment" />
+
+    <fragment
+        android:name="ru.esaulov.fragment.ImageFragment"
+        android:id="@+id/image_fragment"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        tools:layout="@layout/image_fragment" />
+
+</LinearLayout>
