@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="bl_btn">Blur</string>
+    <string name="inv_btn">Invert</string>
+</resources>
