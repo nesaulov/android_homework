@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">What to Watch</string>
+    <string name="genre">Жанр сериала</string>
+    <string name="choose">Выбрать сериал</string>
+    <string-array name="choose_genre">
+        <item>комедия</item>
+        <item>фэнтези</item>
+        <item>ужасы</item>
+        <item>фантастика</item>
+        <item>криминал</item>
+    </string-array>
+</resources>
