@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.esaulov.actionbar.MainActivity">
+
+    <item
+        android:id="@+id/action_beach"
+        android:title="@string/action_beach"
+        android:icon="@mipmap/ic_beach"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
