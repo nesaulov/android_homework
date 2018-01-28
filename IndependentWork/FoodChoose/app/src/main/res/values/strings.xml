@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodChoose</string>
+    <string name="choose">Выберите еду</string>
+    <string name="to_go">С собой?</string>
+    <string name="wopper">Воппер</string>
+    <string name="fries">Картошка фри</string>
+    <string name="pepsi">Пепси/Фанта/Спрайт</string>
+    <string name="souce">Соус</string>
+    <string name="desert">Десерт</string>
+    <string name="toggle">ToggleButton</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+</resources>
